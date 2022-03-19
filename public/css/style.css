@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(232, 235, 240);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 960px;
+    height: 500px;
+    display: flex;
+    word-wrap: break-word;
+    border-radius: 0.35rem;
+    background-color: #fff;
+}
+
+.login-logo {
+    width: 50%;
+    height: 100%;
+    background-color:#000;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.35rem 0 0 0.35rem;
+    background-image: url('../images/logo.png');
+}
+
+.login-form {
+    width: 50%;
+    height: 100%;
+    padding: 3rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.login-title{
+    color: #3a3b45;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.5rem;
+
+    margin-bottom: 1.5rem;
+    margin-inline-end: 0px;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-block-start: 0.67em;
+}
+
+form, .login-form-element {
+    width: 100%;
+    text-align: center;
+}
+
+.login-input {
+    width: 70%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    font-size: .8rem;
+    text-align: start;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #d1d3e2;
+}
+
+.login-anchor {
+    font-size: 80%;
+    cursor: pointer;
+    font-weight: 400;
+    color: #3a3b45;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.login-button {
+    width: 70%;
+    color: #fff;
+    cursor: pointer;
+    font-size: .8rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+    border-color: #000;
+    background-color: #000;
+    border: 1px solid transparent;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    margin-top: 1rem;
+    overflow: visible;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+    border-top: 1.5px solid rgba(0,0,0,.1);
+
+    unicode-bidi: isolate;
+    margin-inline-end: auto;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    margin-inline-start: auto;
+}
+
+.text-center {
+    text-align: center;
+}
